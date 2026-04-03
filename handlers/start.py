@@ -2,7 +2,7 @@ from bot import bot
 from keyboards.inline import get_continue_keyboard
 
 # Путь к фото (локальный или URL)
-FIRST_PHOTO = "photos/phot1.jpg"  # или https://...
+FIRST_PHOTO = "photos/qr.jpg"  # или https://...
 FIRST_TEXT = """
 👋 <b>Привет!</b>
 
