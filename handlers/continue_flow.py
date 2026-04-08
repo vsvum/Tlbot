@@ -2,7 +2,7 @@ from bot import bot
 from keyboards.inline import get_continue_keyboard
 
 # Данные для второго шага
-SECOND_PHOTO = "photos/qr2.jpg"
+SECOND_PHOTO = "photos/phot.jpg"
 SECOND_TEXT = """
 🎯 <b>Отлично, ты перешёл ко второму шагу!</b>
 
