@@ -2,11 +2,14 @@ from bot import bot
 from keyboards.inline import get_continue_keyboard
 
 # Путь к фото (локальный или URL)
-FIRST_PHOTO = "photos/qr.jpg"  # или https://...
+FIRST_PHOTO = "photos/photo.jpg"  # или https://...
 FIRST_TEXT = """
-👋 <b>Привет!</b>
+👋 <b>Доброе утро моя дорогая!</b>
 
-Это первый шаг твоего путешествия.
+Я знаю что вам очень сильно понравились цветочки, но как вы поняли это не все. 
+Нажмите пожалуйста кнопочку продолжить.
+И я очень сильно вас прошу сделать все что там будет сказано. 
+Ведь я очень сильно сторался сделать этот день чуть чуть особенным.
 
 """
 
@@ -19,4 +22,4 @@ def send_first_step(message):
             photo=photo,
             caption=FIRST_TEXT,
             reply_markup=get_continue_keyboard("step_2")
-        )
+        )   
